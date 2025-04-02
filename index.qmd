@@ -1,11 +1,30 @@
 ---
-title: "dudalopessm.github.io"
+title: "Eduarda Lopes"
+image: mypic.jpeg
+resources: resume.pdf
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links:
+    - text: Email
+      icon: envelope
+      href: mailto:eduarda.lopes.bcc@gmail.com
+    - text: Github
+      icon: github
+      href: https://github.com/dudalopessm
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/dudalopessm/
+    - text: Curriculo
+      icon: file-text
+      href: resume.pdf
+  id: ppc
 ---
+:::{#ppc}
+Eu amo gatos.
 
-This is a Quarto website.
+![Amo gatos](dawgs.jpg){width=30%}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Se você também ama gatos, me contrate por favor!
+:::

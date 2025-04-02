@@ -3,16 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "dudalopessm.github.io"
+  title: "Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - sobre_mim.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - minty
+      - minty.scss
+    fontsize: 1rem
+    fontcolor: "#000000"
     css: styles.css
     toc: true
 
